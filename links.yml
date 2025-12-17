@@ -3,7 +3,7 @@
 ## 网址导航页面配置
 ################
 # 网站标题
-title: 网址导航
+title: PMOU网址导航
 # 网站 LOGO（可选）
 # logo: https://webstack.cc/assets/images/logo@2x.png
 # 网址导航页面关键字（可选）
@@ -27,7 +27,7 @@ link_submission_url: https://github.com/jasonet/nav/issues
 # 网站友情链接（可选）
 friendship_links_url: https://jasonet.github.io/links/
 # Google Analytics Code（可选）
-# ga_tracking_code_id: G-ABCDEFG
+ ga_tracking_code_id: G-039ML7QSEE
 
 ################
 ## 导航栏
@@ -174,5 +174,5 @@ categories:
       - title: BestXTools 社区
         logo: https://discuss-cn.bestxtools.com/assets/favicon-ynnfvqi5.png
         url: https://discuss-cn.bestxtools.com/
-        description: BestXTools 社区是一个发现并分享有趣，有创意，免费、好用的工具的非商业性质的，独立的，开放的社区。
+        description: BestXTools 社区。
         tags: 在线工具,周刊,社区
