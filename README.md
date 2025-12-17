@@ -19,12 +19,6 @@
 
 把现在 GitHub repository 的 URL 里的 `github.com` 改成 `github.dev`，会进入 web 版的 VS Code。在 web 版的 VS Code 里修改提交。
 
-## Related
-
-- [geneasy](https://github.com/geneasy/geneasy) - A command line tool that can easily generate HTML, Markdown documents, etc.
-- [geneasy-links](https://github.com/geneasy/links) - 友情链接模板 - 这是一个通用的友情链接模板，任何类型的网站都可以拿去使用。
-- [webstack](https://github.com/WebStackPage/WebStackPage.github.io) - ❤️ 静态响应式网址导航网站 - webstack.cc
-
 ## License
 
-Copyright (c) 2025 [Pipecraft][my-url]. Licensed under the [MIT license][license-url].
+Copyright (c) 2025 Licensed under the MIT license.
