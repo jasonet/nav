@@ -2,12 +2,14 @@ import re
 from urllib import request, error
 from pathlib import Path
 
-
 LINKTRE_PREFIX = "https://www.linktre.cc/siteDetails/"
 
 
-def fetch_real_url(linktre_url: str) -> str | None:
-    """Fetch a linktre.cc detail page and extract the real target URL."""
+from typing import Dict, Optional
+
+
+def fetch_real_url(linktre_url: str) -> Optional[str]:
+    """访问 linktre.cc 详情页，解析按钮 onclick 里的 window.open 真实地址。"""
     try:
         with request.urlopen(linktre_url, timeout=15) as resp:
             html = resp.read().decode("utf-8", errors="ignore")
@@ -15,30 +17,44 @@ def fetch_real_url(linktre_url: str) -> str | None:
         print(f"[ERROR] 请求失败: {linktre_url} -> {e}")
         return None
 
-    # 尝试匹配 window.open('...') / window.open("...")
-    patterns = [
-        r"onclick\s*=\s*\"[^\"]*window\.open\('([^']+)'\)\"",
-        r"onclick\s*=\s*\"[^\"]*window\.open\\\(&quot;([^&]+)&quot;\\\)\"",
-        r"window\.open\('([^']+)'\)",
-        r"window\.open\(\"([^\"]+)\"\)",
-    ]
+    # 先定位按钮所在的 div: class="col-md-4 siteDetails-btn"
+    div_match = re.search(
+        r'<div[^>]*class="[^"]*col-md-4\s+siteDetails-btn[^"]*"[^>]*>(.*?)</div>',
+        html,
+        flags=re.S,
+    )
+    if not div_match:
+        print(f"[WARN] 未找到 siteDetails 按钮区域: {linktre_url}")
+        return None
 
-    for pat in patterns:
-        m = re.search(pat, html)
-        if m:
-            real = m.group(1)
-            # 一些页面可能给的是相对路径或带空格，简单清洗一下
-            real = real.strip()
-            if real:
-                return real
+    div_html = div_match.group(1)
+
+    # 在该 div 里寻找 button 的 onclick 上的 window.open(...)
+    # 示例：<button ... onclick="window.open('https://xxx.com', '_blank')">
+    btn_match = re.search(
+        r'onclick\s*=\s*"[^"]*window\.open\(\s*[\'"]([^\'"]+)[\'"]',
+        div_html,
+    )
+    if not btn_match:
+        btn_match = re.search(
+            r"onclick\s*=\s*'[^']*window\.open\(\s*[\"']([^\"']+)[\"']",
+            div_html,
+        )
+
+    if btn_match:
+        url = btn_match.group(1).strip()
+        if url:
+            return url
 
     print(f"[WARN] 未在页面中找到 window.open: {linktre_url}")
     return None
 
 
-def build_url_map(text: str) -> dict[str, str]:
+def build_url_map(text: str) -> Dict[str, str]:
     """从文件内容中找出所有 linktre.cc 详情页，构造映射表。"""
-    urls = sorted(set(re.findall(r"https://www\\.linktre\\.cc/siteDetails/\\d+", text)))
+    # 注意：这里是正则表达式语法，不要把反斜杠写成字面量
+    # 匹配形如: https://www.linktre.cc/siteDetails/442
+    urls = sorted(set(re.findall(r"https://www\.linktre\.cc/siteDetails/\d+", text)))
     print(f"发现 {len(urls)} 个 linktre.cc URL")
 
     mapping: dict[str, str] = {}
@@ -55,7 +71,7 @@ def build_url_map(text: str) -> dict[str, str]:
     return mapping
 
 
-def apply_mapping(text: str, mapping: dict[str, str]) -> str:
+def apply_mapping(text: str, mapping: Dict[str, str]) -> str:
     """用真实 URL 替换文本中的 linktre.cc URL。"""
     for old, new in mapping.items():
         text = text.replace(old, new)

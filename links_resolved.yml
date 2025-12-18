@@ -530,7 +530,7 @@ categories:
         description: 免费Ai工具目录
         tags: ''
 
-  - category: 出海--支付工具
+  - category: 独立开发出海--支付工具
     icon: linecons-star
     links:
       - title: Lemon Squeezy
@@ -549,7 +549,7 @@ categories:
         description: 手续费低，一体化支付基础设施，可简化和自动化您的计费操作，因此您可以专注于增长
         tags: ''
 
-  - category: 出海--部署与托管
+  - category: 独立开发出海--部署与托管
     icon: linecons-star
     links:
       - title: Cloudflare Pages
@@ -573,7 +573,7 @@ categories:
         description: 提供了免费体验的在线服务托管平台
         tags: ''
 
-  - category: 出海--图标库
+  - category: 独立开发出海--图标库
     icon: linecons-star
     links:
       - title: MingCute Pages
@@ -587,7 +587,7 @@ categories:
         description: 提供超过200,000个开源SVG图标的搜索引擎，允许你免费搜索、下载、自定义和编辑图标。
         tags: ''
 
-  - category: 出海--UI样式
+  - category: 独立开发出海--UI样式
     icon: linecons-star
     links:
       - title: TailwindCSS
@@ -606,7 +606,7 @@ categories:
         description: 开源精美的组件库，复制并粘贴即可完成页面构建
         tags: ''
 
-  - category: 出海--web开发模板
+  - category: 独立开发出海--web开发模板
     icon: linecons-star
     links:
       - title: supastarter
@@ -640,7 +640,7 @@ categories:
         description: 免费落地页生成器
         tags: ''
 
-  - category: 出海--网站分析
+  - category: 独立开发出海--网站分析
     icon: linecons-star
     links:
       - title: AITDK Extension
@@ -679,7 +679,7 @@ categories:
         description: 从搭建到上线的出海手册全流程指南
         tags: ''
 
-  - category: 出海--宣传推广
+  - category: 独立开发出海--宣传推广
     icon: linecons-star
     links:
       - title: Product Hunt
@@ -728,7 +728,7 @@ categories:
         description: 每日免费机场推荐
         tags: ''
 
-  - category: 出海--数据库
+  - category: 独立开发出海--数据库
     icon: linecons-star
     links:
       - title: Supabase
@@ -747,7 +747,7 @@ categories:
         description: Mongodb 官方提供一个免费数据库
         tags: ''
 
-  - category: 出海--前端
+  - category: 独立开发出海--前端
     icon: linecons-star
     links:
       - title: Next.js
@@ -761,7 +761,7 @@ categories:
         description: Nuxt.js 是一个建立在 Vue.js 之上的高级框架致力于创建现代化的 Web 应用程序，提供服务器端渲染、静态站点生成和基于 Vue 的单页面应用解决方案。
         tags: ''
 
-  - category: 出海--登录鉴权
+  - category: 独立开发出海--登录鉴权
     icon: linecons-star
     links:
       - title: Clerk
@@ -775,7 +775,7 @@ categories:
         description: 登录鉴权，有云端版和开源的私有化部署版
         tags: ''
 
-  - category: 出海--邮件服务
+  - category: 独立开发出海--邮件服务
     icon: linecons-star
     links:
       - title: Resend
@@ -789,7 +789,7 @@ categories:
         description: 免费在线隐私政策生成器
         tags: ''
 
-  - category: 出海--域名
+  - category: 独立开发出海--域名
     icon: linecons-star
     links:
       - title: tld-list
@@ -798,7 +798,7 @@ categories:
         description: 域名购买比价网，你的省钱小助手
         tags: ''
 
-  - category: 出海--广告联盟
+  - category: 独立开发出海--广告联盟
     icon: linecons-star
     links:
       - title: Google Adsense
