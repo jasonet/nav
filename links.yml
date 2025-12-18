@@ -18,14 +18,6 @@ shortcut_icon: https://avatars.githubusercontent.com/u/91052735?s=70&v=4
 og_img: https://avatars.githubusercontent.com/u/91052735?s=200&v=4
 # 主页 URL
 home_url: https://jasonet.github.io/nav/
-# GitHub 链接（可选）
-github_url: https://github.com/jasonet/nav
-# 网站 about 链接（可选）
-about_url: https://github.com/jasonet/nav
-# 提交链接的 URL
-link_submission_url: https://github.com/jasonet/nav/issues
-# 网站友情链接（可选）
-friendship_links_url: https://jasonet.github.io/links/
 # Google Analytics Code（可选）
 ga_tracking_code_id: G-039ML7QSEE
 
@@ -42,52 +34,1191 @@ navigation_urls:
 ## 网址导航数据
 ################
 categories:
-  - category: 新添加
+  - category: 节点推荐
     icon: linecons-star
     links:
-      - title: DTO
-        logo: https://dto.pipecraft.net/apple-touch-icon-144.png
-        url: https://dto.pipecraft.net/
-        description: 一个类似 Hacker News, Lobsters 的链接分享社区
-        tags: 程序员,社区
-      - title: BestXTools 社区
-        logo: https://discuss-cn.bestxtools.com/assets/favicon-ynnfvqi5.png
-        url: https://discuss-cn.bestxtools.com/
-        description: BestXTools 社区是一个发现并分享有趣，有创意，免费、好用的工具的非商业性质的，独立的，开放的社区。
-        tags: 在线工具,周刊,社区
-      - title: 等你来加➕
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://github.com/geneasy/nav/issues
-        description: 快来提交你的网站吧
-        tags: 程序员,生活,创意
-      - title: Pipecraft 社区
-        logo: https://discuss-cn.pipecraft.net/assets/favicon-jtrdedht.png
-        url: https://discuss-cn.pipecraft.net/
-        description: 这里是可以自由交流关于 RSS, Atom, JSON Feed, 聚合新闻，内容订阅等话题的地方。
-        tags: RSS,Atom,聚合新闻,内容订阅
+      - title: NuxtPro
+        logo: 
+        url: https://nuxtpro.com
+        description: 基于Nuxt3的国内开发者友好的SaaS出海模板 预集成Stripe/Cream/bagelpay/paypal支付、谷歌登录、多语言路由和SEO工具。快速构建SSR的全球化Web应用 开箱即用
+        tags: 
+      - title: NuxtDir
+        logo: 
+        url: https://nuxtdir.com
+        description: NuxtDir 发现最火爆热门的AI产品,让你的产品脱引而出,凭借高DR权重快速获取1000+用户，获取更多流量曝光！
+        tags: 
+      - title: Remover.plus
+        logo: 
+        url: https://remover.plus
+        description: 免费remover.plus的Sora 2水印去除工具让您轻松清除Sora 2视频中的水印。无需应用或邀请 — 快速、精美的、高质量的结果，适用于希望分享高质量内容的创作者、营销人员和讲故事的人。
+        tags: 
+      - title: FreeTempMail
+        logo: 
+        url: https://mail.aitre.cc
+        description: 开源免费临时邮箱,获取临时邮箱地址，保护您的隐私。无需注册，即时生成，自动接收邮件。
+        tags: 
+      - title: CheapGpt中转api
+        logo: 
+        url: https://nuxtdir.com/zh-CN/sites/442
+        description: CheapGpt中转api是一个全网最低的Claude、openai、Azure GPT3.5-4.0语言对话模型中转api 目前最低低至0.5RMB/刀
+        tags: 
+      - title: 节点链接-短链接制作-你的无风险引流营销黑科技（基础免费）
+        logo: 
+        url: https://links.bnyer.cn
+        description: 节点链接是一个基础免费支持短链接生成、全平台链接一键跳转微信引流工具
+        tags: 
+      - title: 节点导航站(开源版本)
+        logo: 
+        url: https://github.com/PennyJoly/linktre.cc
+        description: 节点导航站开源版本具备完整的前后台且模块化友好支持SEO的导航站点
+        tags: 
+      - title: NuxtPro开源版
+        logo: 
+        url: https://github.com/PennyJoly/NuxtPro
+        description: 基于Nuxt3的国内开发者友好的SaaS出海模板，预集成Stripe/Cream支付、谷歌登录、多语言路由和SEO工具。快速构建SSR的全球化Web应用，开箱即用
+        tags: 
 
-  - category: 推荐
-    hide_menu: true
+  - category: 今日更新
     icon: linecons-star
     links:
-      - title: DTO
-        logo: https://dto.pipecraft.net/apple-touch-icon-144.png
-        url: https://dto.pipecraft.net/
-        description: 一个类似 Hacker News, Lobsters 的链接分享社区
-        tags: 程序员,社区
-      - title: BestXTools 社区
-        logo: https://discuss-cn.bestxtools.com/assets/favicon-ynnfvqi5.png
-        url: https://discuss-cn.bestxtools.com/
-        description: BestXTools 社区是一个发现并分享有趣，有创意，免费、好用的工具的非商业性质的，独立的，开放的社区。
-        tags: 在线工具,周刊,社区
-      - title: Pipecraft 社区
-        logo: https://discuss-cn.pipecraft.net/assets/favicon-jtrdedht.png
-        url: https://discuss-cn.pipecraft.net/
-        description: 这里是可以自由交流关于 RSS, Atom, JSON Feed, 聚合新闻，内容订阅等话题的地方。
-        tags: RSS,Atom,聚合新闻,内容订阅
-      - title: 纵横网址导航
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="80">纵</text></svg>
-        url: https://zh.pipecraft.net/
-        description: 收集小而美的中文垂直社区，微社区，垂直网址导航的网址导航网站。
-        tags: 网址导航,中文垂直社区,微社区,垂直网址导航
+      - title: CheapGpt
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/442
+        description: 企业级AI模型Api
+        tags: ''
+      - title: Sprunki Incredibox
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/446
+        description: 在线音乐小游戏
+        tags: ''
+      - title: Google Trends Quick Open
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/447
+        description: Google Trends工具
+        tags: ''
+      - title: 原力推-内容付费平台
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/448
+        description: 为创作者带来更多收入
+        tags: ''
+      - title: Flux 1.1 Pro AI
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/449
+        description: 在线生成Flux高质量图片
+        tags: ''
+      - title: VMagic AI
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/450
+        description: AI惊讶视频创作工具
+        tags: ''
 
+  - category: 国外热门AI产品
+    icon: linecons-star
+    links:
+      - title: ChatGPT
+        logo: ''
+        url: https://openai.com/chatgpt/
+        description: OpenAI推出的AI对话工具
+        tags: ''
+      - title: Midjourney
+        logo: ''
+        url: https://www.midjourney.com/home
+        description: AI图像插画生成工具
+        tags: ''
+      - title: Claude
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/238
+        description: OpenAI最大的竞争对手Anthropic发布了新一代AI大模型系列
+        tags: ''
+      - title: Le Chat
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/239
+        description: Mistral推出的AI对话聊天助手
+        tags: ''
+      - title: Gemma
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/240
+        description: 谷歌推出的新一代轻量级开放模型
+        tags: ''
+      - title: Sora
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/241
+        description: OpenAI推出的AI文本到视频生成模型
+        tags: ''
+      - title: Suno AI
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/242
+        description: 麻省理工团队推出的人工智能音乐生成器
+        tags: ''
+      - title: GeminiProChat
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/243
+        description: 开源免费的GeminiPro 对话平台
+        tags: ''
+      - title: Llama
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/327
+        description: 谷歌开源且性能远超GPT-4o的模型
+        tags: ''
+      - title: Luma AI
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/328
+        description: 一款基于AI人工智能的三维捕捉,建模与渲染工具。它采用计算机视觉与机器学习技术,可以通过iPhone手机摄像头捕捉实物并自动生成与之高度匹配的三维模型,实现三维建模的自动AI工具
+        tags: ''
+      - title: SearchGPT
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/329
+        description: OpenAI最新推出的AI搜索产品，内测开放
+        tags: ''
+      - title: v0.dev
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/330
+        description: Vercel推出AI生成前端React/UI组件
+        tags: ''
+      - title: Udio
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/331
+        description: 免费的AI音乐创作工具，每月可生成1200首歌曲
+        tags: ''
+      - title: Free Gpt Detector
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/332
+        description: 一个基于 🤗/Transformers 的AI内容在线检测工具。输入文本以查看预测概率，从大约 50 个标记开始即可获得可靠的结果
+        tags: ''
+      - title: TikTok to MP3
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/333
+        description: 使用我们的 TikTok 到 MP3 转换器，轻松将您最喜欢的 TikTok 声音转换并保存为 MP3 文件
+        tags: ''
+      - title: BeautyPlus
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/334
+        description: 免费在线 AI 照片编辑器和设计工具。一体化照片/视频编辑器。探索网络上 BeautyPlus AI 照片编辑器上的所有滤镜、功能、特效、内容等。
+        tags: ''
+      - title: AI Cartoon Generator
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/335
+        description: 使用 Image to Cartoons 将图像转换为迷人的卡通 - 这是一种强大的 AI 工具，支持卡通女性肖像、卡通动物头像等。探索西方、政治和编辑主题的 2D 和 3D 卡通风格。立即试用我们的卡通人物生成器！
+        tags: ''
+      - title: Smallppt
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/336
+        description: Smallppt：创建令人惊叹的 AI 演示文稿和思维导图工具
+        tags: ''
+      - title: Grok
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/338
+        description: 马斯克旗下xAI推出的人工智能助手
+        tags: ''
+      - title: Notion AI
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/339
+        description: Notion推出的AI内容创作助手
+        tags: ''
+      - title: adcopy
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/342
+        description: Meta Ads AI 是一种工具，旨在通过利用人工智能进行拆分测试、文案撰写和优化来增强 Meta 平台上的广告活动，确保更快地发布广告并提高效果
+        tags: ''
+      - title: Humanize AI Text
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/343
+        description: Humanize AI Text 是一款免费的在线工具，旨在使用先进的自然语言处理模型将文本转换为更加个性化、更具吸引力和更自然的风格。
+        tags: ''
+      - title: ChordChord
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/344
+        description: ChordChord 歌曲创作和音乐制作工具。我们重视您的隐私。我们使用 Cookie 来增强您的浏览体验、提供个性化广告或内容以及分析我们的流量。
+        tags: ''
+      - title: Scrip AI
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/345
+        description: Scrip AI 提供免费的 AI 内容工具，可帮助用户以 10 倍的速度创建各种类型的内容，无需信用卡或登录。
+        tags: ''
+      - title: Vizcom
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/350
+        description: AI渲染转化手绘图为产品设计图!
+        tags: ''
+      - title: DeepSwapper
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/351
+        description: 免费的在线AI换脸工具，支持图片、视频多种格式
+        tags: ''
+      - title: Koko AI
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/352
+        description: Seele公司推出的「AI+3D」情感陪伴产品
+        tags: ''
+      - title: Riffo
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/354
+        description: Riffo是一款旨在帮助用户简化文件重命名和组织流程的AI助手。
+        tags: ''
+      - title: Creatify
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/355
+        description: 一段简单的描述ai生成营销视频
+        tags: ''
+      - title: Intimal AI
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/356
+        description: Intimal AI是一个AI恋爱导师，解决你的爱情问题
+        tags: ''
+      - title: exo
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/362
+        description: 在家使用日常设备搭建自己的AI集群
+        tags: ''
+      - title: NameSnack
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/363
+        description: 100 + 创意、短小、可用的商业名字
+        tags: ''
+      - title: Noisee AI
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/364
+        description: 将您喜爱的旋律转化为音乐视频。
+        tags: ''
+      - title: UI Colorful
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/365
+        description: 个性化网站主题颜色生成器。
+        tags: ''
+      - title: logobean
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/366
+        description: 创业者的在线Logo制作工具
+        tags: ''
+      - title: PS2 Filter AI Tool
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/367
+        description: 一键生成复古PS2风格图片
+        tags: ''
+      - title: WebLens
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/368
+        description: 网站分析与A/B测试工具
+        tags: ''
+      - title: UserCue
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/369
+        description: ai帮助分析你的用户行为，提升转化率
+        tags: ''
+      - title: Riffusion
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/375
+        description: AI生成不同风格的音乐，免费开源
+        tags: ''
+      - title: Dexa AI
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/376
+        description: AI播客搜索工具
+        tags: ''
+      - title: Adot
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/377
+        description: 一个由AI驱动的 Web3 搜索引擎
+        tags: ''
+      - title: Tusk
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/379
+        description: AI编码助手，自动化解决代码问题
+        tags: ''
+      - title: Omages
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/380
+        description: 3D模型转换为64x64像素图像工具
+        tags: ''
+      - title: TikTok Voice Generator
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/383
+        description: 生成各种有趣的TikTok AI语音
+        tags: ''
+      - title: VanceAI
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/386
+        description: AI照片增强和编辑工具提供商
+        tags: ''
+      - title: Surfer-Data
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/388
+        description: 全球首款个人数据导出器
+        tags: ''
+      - title: Struct2AI
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/389
+        description: 智能捕捉项目结构，提升AI交互效率
+        tags: ''
+      - title: Free Youtube Converter to mp3
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/391
+        description: 一个免费的将油管视频转换成mp3的在线工具
+        tags: ''
+      - title: Let Me Know When
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/392
+        description: AI驱动的网站监控与竞争对手分析工具
+        tags: ''
+      - title: Linkter
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/393
+        description: AI辅助内部链接构建工具
+        tags: ''
+      - title: BackPack
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/400
+        description: 将图片和视频转化为歌曲的创意ai工具
+        tags: ''
+      - title: Buildpad
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/434
+        description: 构建人们真正想要的产品
+        tags: ''
+      - title: Realtime API
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/435
+        description: openai的低延迟的实时语音交互API
+        tags: ''
+      - title: Saylo AI
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/436
+        description: 探索无限的AI角色扮演游戏
+        tags: ''
+
+  - category: 国内热门AI产品
+    icon: linecons-star
+    links:
+      - title: Rap Generato
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/323
+        description: 生成说唱歌词和歌曲的免费AI工具
+        tags: ''
+      - title: suno-list
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/319
+        description: 收录了suno每日top10的榜单，并且加上自己的双语点评
+        tags: ''
+      - title: suno-top
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/320
+        description: 免费下载suno音乐（官方没开放下载），定时更新制作AI音乐技巧
+        tags: ''
+      - title: AI迷宫生成
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/321
+        description: 免费生成二维迷宫，可以定制生成的大小、复杂程度和提前知道答案
+        tags: ''
+      - title: aitoolshubs.com
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/322
+        description: 免费收录AI工具，提供导航和外链，同时编辑会提供使用感受和优化意见
+        tags: ''
+      - title: HeyMusic.AI
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/316
+        description: 利用生成式AI技术轻松将歌词转化为个性化音乐
+        tags: ''
+      - title: 文心一言
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/244
+        description: 百度推出的基于文心大模型的AI对话互动工具
+        tags: ''
+      - title: ChatGLM
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/245
+        description: 开源的、支持中英双语的1300亿参数的对话语言模型
+        tags: ''
+      - title: 通义千问
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/246
+        description: 阿里推出类ChatGPT的产品
+        tags: ''
+      - title: 讯飞星火认知大模型
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/247
+        description: 科大讯飞认知智能大模型
+        tags: ''
+      - title: 豆包AI
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/253
+        description: 字节跳动旗下推出的AI人工智能助手
+        tags: ''
+      - title: C知道
+        logo: ''
+        url: https://so.csdn.net/chat?utm_source=ai-bot.cn
+        description: CSDN推出的技术答疑工具助手
+        tags: ''
+      - title: 小微助手
+        logo: ''
+        url: https://xiaowei.weixin.qq.com/
+        description: 腾讯推出的桌面版AI助手工具
+        tags: ''
+      - title: ChatGPT Next Web
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/341
+        description: 一键免费部署你的跨平台私人 ChatGPT 应用, 支持 GPT3, GPT4 & Gemini Pro 模型。搭配低价CheapGpt中转api更好用哟！
+        tags: ''
+      - title: Discover AI
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/346
+        description: 一个免登陆即可用于搜索人工智能工具或您自己的数据的AI人工智能搜索引擎。
+        tags: ''
+      - title: Aide
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/348
+        description: 在vscode中一键注释、转换、UI 图生成代码、AI 批量处理文件！
+        tags: ''
+      - title: PH今日热榜
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/384
+        description: 每日更新Product Hunt热门产品榜单
+        tags: ''
+      - title: AITDK AI落地页生成器
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/385
+        description: AI驱动的高效落地页创建工具
+        tags: ''
+      - title: YouDub-webui
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/387
+        description: 优质视频中文化工具
+        tags: ''
+      - title: Fluximg
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/390
+        description: 一键免费使用 Flux 生成图片
+        tags: ''
+      - title: AIPoster
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/394
+        description: 开源3D文字海报生成器
+        tags: ''
+      - title: 奇异字体生成器
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/395
+        description: 在线社媒字体生成器
+        tags: ''
+      - title: fluxaipro.art
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/398
+        description: Flux AI 高级图像生成器
+        tags: ''
+      - title: glances.ai
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/410
+        description: AI驱动社媒监听工具，发掘潜在客户和增长机会
+        tags: ''
+      - title: tinyeraser
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/411
+        description: 免费批量一键换背景工具
+        tags: ''
+      - title: 言笔AI写作
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/417
+        description: ai智能写作工具
+        tags: ''
+      - title: Top AI Tools
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/443
+        description: 好用的 AI 工具合集
+        tags: ''
+      - title: Gen AI Prism Tools Directory
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/445
+        description: 免费Ai工具目录
+        tags: ''
+
+  - category: 独立开发出海--支付工具
+    icon: linecons-star
+    links:
+      - title: Lemon Squeezy
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/269
+        description: 支持个人香港卡、虚拟卡，国内开发者首选
+        tags: ''
+      - title: Stripe
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/270
+        description: 企业出海首选,全面的在线支付平台
+        tags: ''
+      - title: Paddle
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/271
+        description: 手续费低，一体化支付基础设施，可简化和自动化您的计费操作，因此您可以专注于增长
+        tags: ''
+
+  - category: 独立开发出海--部署与托管
+    icon: linecons-star
+    links:
+      - title: Cloudflare Pages
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/272
+        description: 通过Git集成、发布项目，支持全栈应用
+        tags: ''
+      - title: Vercel
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/273
+        description: 穷鬼必备，静态网站和服务器端渲染网站出海托管第一选择！
+        tags: ''
+      - title: Github Pages
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/274
+        description: 直接从GitHub存储库托管，您仅需编辑和推送代码，您的更改即可快速上线
+        tags: ''
+      - title: Railway
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/381
+        description: 提供了免费体验的在线服务托管平台
+        tags: ''
+
+  - category: 独立开发出海--图标库
+    icon: linecons-star
+    links:
+      - title: MingCute Pages
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/276
+        description: 为设计师和开发者准备的简洁而精致的开源图标库，适合在网页和移动设备上使用
+        tags: ''
+      - title: iconbuddy
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/277
+        description: 提供超过200,000个开源SVG图标的搜索引擎，允许你免费搜索、下载、自定义和编辑图标。
+        tags: ''
+
+  - category: 独立开发出海--UI样式
+    icon: linecons-star
+    links:
+      - title: TailwindCSS
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/278
+        description: 一个功能强大的实用CSS框架，用于快速构建自定义设计的界面。
+        tags: ''
+      - title: HyperUI
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/279
+        description: 一个基于TailwindCSS的开源简约风UI库，强烈推荐!
+        tags: ''
+      - title: Shadcn/ui
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/280
+        description: 开源精美的组件库，复制并粘贴即可完成页面构建
+        tags: ''
+
+  - category: 独立开发出海--web开发模板
+    icon: linecons-star
+    links:
+      - title: supastarter
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/281
+        description: 使用流行的前端框架如Next.js和Nuxt，一天之内快速上线!
+        tags: ''
+      - title: nextjs billing
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/282
+        description: 由Lemon Squeezy开源的，计费-LemonSqueezy 授权-NextAuth.js ORM-Prisma 样式-Tailwind CSS 邮件-Resend
+        tags: ''
+      - title: SaaS-Boilerplate
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/283
+        description: 一款开源的SaaS模板，非常适合构建自己的SaaS应用。使用React+Tailwind CsS +Shadcn Ul包括身份验证，多租户，角色权限，MFA，用户登录，数据库和日志记录~
+        tags: ''
+      - title: saasfly
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/284
+        description: SaaS 开发模板，主要是对标 shipfa.st
+        tags: ''
+      - title: htmlrev
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/373
+        description: 1500+免费的 HTML 模板
+        tags: ''
+      - title: websim.ai
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/404
+        description: 免费落地页生成器
+        tags: ''
+
+  - category: 独立开发出海--网站分析
+    icon: linecons-star
+    links:
+      - title: AITDK Extension
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/285
+        description: Chrome 插件。网站 SEO 分析工具,强烈安利
+        tags: ''
+      - title: Umami
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/286
+        description: 一个简单、易用的开源网站分析工具，它提供用户隐私尊重的方式来跟踪网站访问者的活动和数据
+        tags: ''
+      - title: Google Analytics
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/287
+        description: 一个强大的网站分析服务，它可以帮助网站所有者理解访客行为，评估营销活动的效果，并改善网站性能
+        tags: ''
+      - title: SEO.box
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/403
+        description: 在线SEO向导网站，协助提升你的SEO策略
+        tags: ''
+      - title: 流沙SEO
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/405
+        description: 免费且高质量出海、SEO优化博客
+        tags: ''
+      - title: Sitemap Generator
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/402
+        description: 专注于网站地图生成与数据可视化分析工具
+        tags: ''
+      - title: 出海网站经验总结
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/414
+        description: 从搭建到上线的出海手册全流程指南
+        tags: ''
+
+  - category: 独立开发出海--宣传推广
+    icon: linecons-star
+    links:
+      - title: Product Hunt
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/288
+        description: 新产品主打阵地，发布后其他导航站回来爬取，首选发布地
+        tags: ''
+      - title: reddit
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/289
+        description: 新产品交流社区
+        tags: ''
+      - title: Hacker News
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/290
+        description: 一个新闻聚合网站，允许提交满足用户求知欲的各种类型的新闻，主要以英语内容为主。
+        tags: ''
+      - title: Indie Hackers
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/291
+        description: 一个社区平台，它连接开发者们共同分享他们的公司和副业背后的策略和收入数据。
+        tags: ''
+      - title: 1000UserGuide
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/314
+        description: 为开发者有效地推广产品，接触目标受众，并找到你的第一批1000个用户
+        tags: ''
+      - title: toolsapp
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/406
+        description: 免费收录推广AI目录和创业产品项目
+        tags: ''
+      - title: aibasket
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/440
+        description: ai工具导航站
+        tags: ''
+      - title: so0000软件目录
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/441
+        description: 精品Windows免费软件下载
+        tags: ''
+      - title: 一个朋友
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/444
+        description: 每日免费机场推荐
+        tags: ''
+
+  - category: 独立开发出海--数据库
+    icon: linecons-star
+    links:
+      - title: Supabase
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/292
+        description: PostgreSQL数据库、文件存储、登录鉴权
+        tags: ''
+      - title: Upstash
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/293
+        description: 支持 Redis、kafka、向量数据库
+        tags: ''
+      - title: Mongodb
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/294
+        description: Mongodb 官方提供一个免费数据库
+        tags: ''
+
+  - category: 独立开发出海--前端
+    icon: linecons-star
+    links:
+      - title: Next.js
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/295
+        description: 基于 React。附属学习教程:Next.js Practice
+        tags: ''
+      - title: Nuxt
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/296
+        description: Nuxt.js 是一个建立在 Vue.js 之上的高级框架致力于创建现代化的 Web 应用程序，提供服务器端渲染、静态站点生成和基于 Vue 的单页面应用解决方案。
+        tags: ''
+
+  - category: 独立开发出海--登录鉴权
+    icon: linecons-star
+    links:
+      - title: Clerk
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/297
+        description: 免费用户 5000 MAU
+        tags: ''
+      - title: Logto
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/298
+        description: 登录鉴权，有云端版和开源的私有化部署版
+        tags: ''
+
+  - category: 独立开发出海--邮件服务
+    icon: linecons-star
+    links:
+      - title: Resend
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/359
+        description: 提供免费支持的临时邮件服务，专注于开发者
+        tags: ''
+      - title: freeprivacypolicy
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/371
+        description: 免费在线隐私政策生成器
+        tags: ''
+
+  - category: 独立开发出海--域名
+    icon: linecons-star
+    links:
+      - title: tld-list
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/361
+        description: 域名购买比价网，你的省钱小助手
+        tags: ''
+
+  - category: 独立开发出海--广告联盟
+    icon: linecons-star
+    links:
+      - title: Google Adsense
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/303
+        description: 最出名的广告联盟，68%广告分成，审核周期较长，适合流量稳定较高的站点
+        tags: ''
+      - title: ezoic
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/304
+        description: 注册简单，官方扶持1W访问量以下站点，根据访问量划分等级，最低提现20美元,30天打款
+        tags: ''
+      - title: bidvertiser
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/305
+        description: 更适合英文站点，中文站点广告较少，最低10美元提现
+        tags: ''
+      - title: media.net
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/306
+        description: 无流量要求，需流量来源美国、英国或加拿大，100%的英文站，最低提现100美元，30天打款，不接受敏感内容
+        tags: ''
+      - title: propellerads
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/307
+        description: 无流量要求，注册简单，收入高于谷歌AdSense，最低提现100美元
+        tags: ''
+      - title: monetag
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/308
+        description: propellerads相关公司,对新手友好，注册简单，每天一杯9.9咖啡不二之选，不接受敏感内容
+        tags: ''
+      - title: yllix
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/309
+        description: 支持CPM、CPC和CPA活动，无流量要求，注册简单，最低提现1美元,每日打款,邀请新用户赠高达100美元奖励
+        tags: ''
+      - title: skimlinks
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/310
+        description: 点击75%佣金,购物返现,最低提现10美元,90天打款
+        tags: ''
+      - title: adsterra
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/311
+        description: 比Google Adsense赚的多的联盟
+        tags: ''
+      - title: sovrn
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/312
+        description: 有审核门槛，但较容易通过，CPM形式，广告展示就会有收入。
+        tags: ''
+      - title: exoclick
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/313
+        description: 一个比较好用的网赚联盟,支持中文
+        tags: ''
+
+  - category: 开源项目
+    icon: linecons-star
+    links:
+      - title: HeyForm
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/315
+        description: 开源且无代码式的表单快速构建工具
+        tags: ''
+      - title: SimUI模拟游戏管理软件
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/317
+        description: 热爱模拟游戏文化的玩家开发的免费专业游戏ROM管理软件
+        tags: ''
+      - title: 兔兔答题
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/299
+        description: 开源免费在线考试，企业培训软件综合平台
+        tags: ''
+      - title: Inpaint-web
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/300
+        description: 免费开源的AI图片消除、高清修复工具
+        tags: ''
+      - title: RSSHub
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/340
+        description: RSSHub 是一个开源、易于使用且可扩展的 RSS 源生成器
+        tags: ''
+      - title: Deploy
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/347
+        description: Dokploy 是一个免费的自托管平台即服务，可简化应用程序和数据库的部署和管理。
+        tags: ''
+      - title: MinerU
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/349
+        description: MinerU 是一款一站式、开源、高质量的数据提取工具。
+        tags: ''
+      - title: Shiro
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/353
+        description: 一个极简主义的开源个人网站blog 纸的纯净和雪的清新。
+        tags: ''
+      - title: postmark templates
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/358
+        description: 一款电子邮件模板编辑工具
+        tags: ''
+      - title: ChatGPT Shortcut
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/374
+        description: 开源的简单易用的ChatGPT快捷指令 让生产力加倍
+        tags: ''
+      - title: OpenAPI UI
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/378
+        description: 更简洁美观的OpenAPI开源接口文档工具
+        tags: ''
+      - title: Easy-RAG
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/382
+        description: 一个适合学习、自用的开源Rag扩展
+        tags: ''
+      - title: tiktoken
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/396
+        description: openai开源token消耗统计组件
+        tags: ''
+      - title: GitBase
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/397
+        description: 基于Github的开源CMS内容管理系统
+        tags: ''
+      - title: OpenDevin
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/401
+        description: 开源的AI代码生成器
+        tags: ''
+      - title: coolify
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/413
+        description: Heroku/Netlify/Vercel开源免费替代品
+        tags: ''
+      - title: kkTerminal
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/416
+        description: 开源ssh远程连接服务器web终端
+        tags: ''
+      - title: magic-html
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/420
+        description: 通用HTML数据提取器
+        tags: ''
+      - title: Perplexica
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/421
+        description: 开源的人工智能搜索工具,搭配本仓库的节点推荐【CheapGpt】更好用哟
+        tags: ''
+      - title: Tinymind
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/423
+        description: 将GitHub 变成博客和备忘录的工具
+        tags: ''
+      - title: ProxyCat
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/424
+        description: 代理池中间件
+        tags: ''
+      - title: readecho-web
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/425
+        description: 微信读书笔记导出工具
+        tags: ''
+      - title: iBackupExtractor
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/427
+        description: iOS 备份导出工具
+        tags: ''
+      - title: 秒达工具箱
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/432
+        description: 开源中文工具箱
+        tags: ''
+      - title: Fofa-hack
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/433
+        description: 开源fofa爬虫工具
+        tags: ''
+      - title: '"说人话"的开源许可证选择器'
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/437
+        description: 简单明了的说人话的开源许可证选择器
+        tags: ''
+      - title: Glider代理池
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/439
+        description: 简易爬虫中转代理
+        tags: ''
+
+  - category: 媒体运营
+    icon: linecons-star
+    links:
+      - title: SimilarSites
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/248
+        description: 根据你当前浏览的页面搜索出同类网站
+        tags: ''
+      - title: Semrush
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/250
+        description: 全面的SEO搜索引擎数字营销工具
+        tags: ''
+      - title: 巨量算数
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/251
+        description: 字节跳动推出的抖音、西瓜视频等热点指数分析工具
+        tags: ''
+      - title: 新红
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/252
+        description: 新榜有数旗下小红书数据分析工具
+        tags: ''
+      - title: wideo
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/264
+        description: 广告创意视频制作工具
+        tags: ''
+      - title: explodingtopics
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/412
+        description: 根据关键词追踪话题热度趋势的工具
+        tags: ''
+      - title: 吉光卡片
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/415
+        description: 社媒运营卡片化制作工具
+        tags: ''
+
+  - category: 在线工具
+    icon: linecons-star
+    links:
+      - title: Free Case Convert Online
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/326
+        description: 在线免费英文大小写及其他格式转换工具
+        tags: ''
+      - title: Favicon.ico图标在线转换
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/236
+        description: 在线png、jpg、gif等格式的图片转ico格式工具
+        tags: ''
+      - title: 一键免费制作ico图标
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/237
+        description: 在线ico图标生成工具
+        tags: ''
+      - title: scamalyticsIp
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/254
+        description: 在线ip干净程度检测工具
+        tags: ''
+      - title: whoer
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/260
+        description: 在线ip、dns检查工具
+        tags: ''
+      - title: ipinfo
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/261
+        description: 在线ip机场检查工具
+        tags: ''
+      - title: tinypng
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/262
+        description: 在线免费图片压缩工具
+        tags: ''
+      - title: kraken
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/263
+        description: 在线图片压缩工具
+        tags: ''
+      - title: Removebg
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/275
+        description: 免登录的100%免费的在线 AI 抠图工具
+        tags: ''
+      - title: Tally
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/360
+        description: Tally 是一个用户友好的在线表单构建平台
+        tags: ''
+      - title: ShotEasy
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/372
+        description: 轻量级免费在线开源屏幕截图工具
+        tags: ''
+      - title: snapany
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/399
+        description: 在线免费、简单. 从1000+平台保存视频和图片
+        tags: ''
+      - title: javaqahub
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/407
+        description: 免费的java面试手册宝典
+        tags: ''
+      - title: 酒店协议代码大全
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/408
+        description: 低价高级酒店折扣代码大全
+        tags: ''
+      - title: TikTok收益计算器
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/409
+        description: 免费tiktok收益计算器
+        tags: ''
+      - title: 退休倒计时计算器
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/422
+        description: 在线计算改革后的退休年龄工具
+        tags: ''
+      - title: 图片分割器
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/426
+        description: 免费在线图片分割工具
+        tags: ''
+      - title: 男女职工法定退休年龄查询
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/428
+        description: 男女职工法定退休年龄查询工具
+        tags: ''
+      - title: Minecraft圆形生成器
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/429
+        description: 在线Minecraft圆形生成
+        tags: ''
+      - title: 法定退休& 养老金资格计算器
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/430
+        description: 在线计算法定退休年龄及养老金
+        tags: ''
+      - title: 房贷利率调整计算器
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/431
+        description: 轻松计算月供变化
+        tags: ''
+      - title: 投资策略模拟器
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/438
+        description: 协助用户模拟投资分析
+        tags: ''
+
+  - category: 跨境电商
+    icon: linecons-star
+    links:
+      - title: SimilarWeb
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/249
+        description: 市场营销工具，分析流量数据、用户行为、竞争对手比较等信息
+        tags: ''
+      - title: 亚马逊选品
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/255
+        description: 买家最常在亚马逊上添加到心愿单和礼物清单的商品
+        tags: ''
+      - title: 速卖通选品
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/256
+        description: 阿里旗下跨境电商选品平台
+        tags: ''
+      - title: Helium 10
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/257
+        description: 亚马逊营销分析运营工具
+        tags: ''
+      - title: algopix
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/258
+        description: 亚马逊、eBay 和沃尔玛产品市场研究工具
+        tags: ''
+      - title: egrow
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/259
+        description: 亚马逊数据分析选品工具
+        tags: ''
+      - title: Plug In SEO
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/265
+        description: shopify的SEO优化工具
+        tags: ''
+      - title: Ava SEO Image Optimizer Speed
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/266
+        description: shopify的免费SEO优化工具
+        tags: ''
+      - title: koala-app
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/267
+        description: 优秀的shopify竞品分析工具
+        tags: ''
+      - title: Shine Commerce
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/268
+        description: 最知名的shopify对手分析工具
+        tags: ''
+      - title: 来客乐
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/357
+        description: 一体化运输解决方案，低价PB / USPS 账号服务
+        tags: ''
+      - title: AlphaRank SEO
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/370
+        description: Shopify店铺设计的AI SEO优化工具
+        tags: ''
+      - title: fastmoss
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/418
+        description: tiktok数据分析工具
+        tags: ''
+      - title: adsmoss
+        logo: ''
+        url: https://www.linktre.cc/siteDetails/419
+        description: TikTok广告监控工具
+        tags: ''
